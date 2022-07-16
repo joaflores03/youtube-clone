@@ -384,6 +384,15 @@ nav{
     margin-left: -80px;
 }
 
+.sus-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 30%;
+    margin-right: -10px;
+}
+
 .suscriptions i{
     font-size: 7px;
     color:red;
