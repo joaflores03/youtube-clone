@@ -308,3 +308,60 @@ nav{
     color:red;
     margin-left: -40px;
 }
+
+@media screen and (max-width: 600px){
+
+    .nav-left img{
+        width:100%;
+    }
+
+    .search-input input{
+        display: none;
+    }
+
+    .search-input i{
+        background-color: transparent;
+        border: none;
+        margin-left: 10px;
+    }
+
+
+    .nav-mid .microfono{
+        display: none;
+    }
+
+    nav{
+        margin-top: 0;
+    }
+
+    .nav-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .sub-nav{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .wrapperAll{
+        background-color: #fefefe;
+    }
+    .cards-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin-top: 10px;
+        margin-left: 0px;
+        background-color: #fefefe;
+    }
+    .card{
+        background-color: transparent;
+    }
+}
