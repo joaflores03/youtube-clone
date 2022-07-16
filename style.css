@@ -7,7 +7,7 @@ body{
 }
 
 nav{
-    margin-top: 20px;
+    margin-top: 10px;
     background: #fff;
     position: fixed;
     top: 0;
@@ -114,6 +114,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 10px;
 }
 
 .left-items{
@@ -282,4 +283,28 @@ nav{
     align-items: center;
     width: 100%;
     gap: 10px;
+}
+.suscriptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.suscriptions img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.sus-mid{
+    font-size: 20px;
+    margin-left: -80px;
+}
+
+.suscriptions i{
+    font-size: 18px;
+    color:red;
+    margin-left: -40px;
 }
