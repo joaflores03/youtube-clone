@@ -375,28 +375,9 @@ nav{
 
 @media screen and (max-width: 600px){
 
-    .nav-left img{
-        width:100%;
-    }
-
-    .search-input input{
-        display: none;
-    }
-
-    .search-input i{
-        background-color: transparent;
-        border: none;
-        margin-left: 10px;
-    }
-
-
-    .nav-mid .microfono{
-        display: none;
-    }
-
     nav{
         margin-top: 0;
-        margin-left: -16px;
+        margin:auto;
     }
 
     .nav-wrapper{
@@ -406,8 +387,44 @@ nav{
         width: 100%;
     }
 
+    .nav-left img{
+        width:100%;
+    }
+
+    .nav-mid .microfono{
+        display: none;
+    }
+
+    .search-input input{
+        display: none;
+    }
+
+    .search-input i{
+        background-color: transparent;
+        border: none;
+        margin-left: -40px;
+    }
+
     .nav-right{
         display: none;
+    }
+
+    .right{
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        margin-top: -10px;
+    }
+
+    .wrapperAll{
+        margin-top: 15px;
+        background-color: #fefefe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .sub-nav{
@@ -416,18 +433,26 @@ nav{
     .left{
         display: none;
     }
-    .wrapperAll{
-        margin-top: 15px;
-        background-color: #fefefe;
-    }
     .cards-wrapper{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin-top: 10px;
-        margin-left: 0px;
+        width: 100%;
+        margin: auto;
         background-color: #fefefe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        overflow: visible;
     }
     .card{
         background-color: transparent;
+        width: 253px;
+        height: auto;
+        overflow: visible;
+    }
+    .card-top img{
+        width: 100%;
+        height: 100%;
+        overflow: visible;
     }
 }
